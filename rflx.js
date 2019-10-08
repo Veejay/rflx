@@ -16,6 +16,7 @@ class rflx {
   /**
    * @param {*} something
    * @returns {Boolean} - whether or not something is a string
+   */
   static isString(something) {
     return Object.is(typeof something, "string") || something instanceof String;
   }
