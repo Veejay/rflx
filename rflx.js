@@ -30,6 +30,7 @@ class rflx {
   /**
    * @param {*} something
    * @returns {Boolean} - whether or not something is a map
+   */
   static isMap(something) {
     return something instanceof Map;
   }
