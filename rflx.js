@@ -46,7 +46,7 @@ class rflx {
    * @returns {Boolean} - whether or not something is a boolean
    */
   static isBoolean(something) {
-    return Object.is(something, "boolean");
+    return Object.is(typeof something, "boolean");
   }
 }
 
